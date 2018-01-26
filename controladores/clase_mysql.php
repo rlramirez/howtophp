@@ -122,7 +122,7 @@ class clase_mysql{
 			echo "<h3><span class='icon-phone'></span> $row[2] </h3>";
 			echo "<h3><span class='icon-envelop'></span> $row[3] </h3>";
 			echo "<h3><span class='icon-profile'></span> $row[5] </h3>";
-			echo "<a href='../vistas/borrar.php?id_user=$row[0]' class='boton'>Borrar</a>";
+			echo "<a href='../vistas/borrar.php?id_user=$row[0]' class='boton btnrojo'>Borrar</a>";
 			echo "<a href='../vistas/actualizar.php?id_user=$row[0]' class='boton'>Actualizar</a><br>";
 			//}
 			echo "</section>";
